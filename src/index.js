@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MoviesTable from './MoviesTable';
+import Pricing from './testing'
+import MoviesList from './MoviesList'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <MoviesTable /> */}
+    <MoviesList/>
   </React.StrictMode>,
   document.getElementById('root')
 );
